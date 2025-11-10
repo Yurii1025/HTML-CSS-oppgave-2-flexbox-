@@ -1,0 +1,61 @@
+.cards_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+}
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 100%;
+    font-size: 15px;
+    padding: 50px;
+    min-height: 400px;
+}
+.car_img {
+}
+.trip_name {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.trip_info {
+    font-family: "Lexend Deca", sans-serif;
+}
+.btn {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+}
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
